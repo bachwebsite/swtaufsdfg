@@ -39150,9 +39150,9 @@ class Ultraviolet {
         this.meta = options.meta || {};
         this.meta.base ||= undefined;
         this.meta.origin ||= '';
-        this.bundleScript = options.bundle || '/uv.bundle.js';
-        this.handlerScript = options.handler || '/uv.handler.js';
-        this.configScript = options.config || '/uv.config.js';
+        this.bundleScript = options.bundle || '/public/uv.bundle.js';
+        this.handlerScript = options.handler || '/public/uv.handler.js';
+        this.configScript = options.config || '/public/uv.config.js';
         this.meta.url ||= this.meta.base || '';
         this.codec = Ultraviolet.codec;
         this.html = new _html_js__WEBPACK_IMPORTED_MODULE_0__["default"](this);
